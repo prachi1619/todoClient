@@ -2,7 +2,7 @@
 	"name": "todo_react_app",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://javascriptbear.github.io/login",
+	"homepage": "/login",
 	"dependencies": {
 		"@emotion/react": "^11.11.4",
 		"@emotion/styled": "^11.11.0",
@@ -40,6 +40,7 @@
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
+		"install:clean": "npm install && npm start",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
