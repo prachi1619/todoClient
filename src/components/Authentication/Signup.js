@@ -26,7 +26,7 @@ export default function Signup() {
     e.preventDefault();
     try {
       const response = await signup(formData);
-      if(response) navigate("/login");
+      if(response) navigate("/");
       else console.error("Signup failed:", response);
     } catch (error) {
       console.error("Signup failed:", error);
@@ -109,7 +109,7 @@ export default function Signup() {
           </Typography>
         </form>
         <Typography>
-          Have an account? <Link to="/login">Login</Link>
+          Have an account? <Link to="/">Login</Link>
         </Typography>
       </div>
     </div>
